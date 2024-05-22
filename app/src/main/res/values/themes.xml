@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gestorcitas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/color_morado</item>
+        <item name="colorPrimaryVariant">@color/color_morado_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/color_gray_light</item>
+        <item name="colorSecondaryVariant">@color/color_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.Gestorcitas" parent="Base.Theme.Gestorcitas" />
+
+    <style name="MenuButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingRight">60dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+    </style>
+
+    <style name="NextButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingRight">60dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+    </style>
+</resources>
